@@ -48,4 +48,14 @@ contactsdb-# \dt+
  public | contacts | table | userXDY | 8192 bytes | 
 (1 row)
 
-contactsdb-# 
+contactsdb=# select * from contacts;
+ id | firstname |  lastname  |        email        
+----+-----------+------------+---------------------
+  1 | Bilbo     | Baggins    | bilbo@theshire.com
+  2 | Frodo     | Baggins    | frodo@theshire.com
+  3 | Samwise   | Gamgee     | sam@theshire.com
+  4 | Peregrin  | Took       | pippin@theshire.com
+  5 | Meriadoc  | Brandybuck | merry@theshire.com
+(5 rows)
+
+contactsdb=# 
